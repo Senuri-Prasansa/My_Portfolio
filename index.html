@@ -35,19 +35,19 @@
               <a class="nav-link active " aria-current="home" href="#home">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#about">About</a>
+              <a class="nav-link " href="#about">About</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#services">Services</a>
+              <a class="nav-link " href="#services">Services</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#skills">Skills</a>
+              <a class="nav-link " href="#skills">Skills</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#project">Project</a>
+              <a class="nav-link " href="#project">Project</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="#contact">Contact</a>
+              <a class="nav-link " href="#contact">Contact</a>
             </li>
           </ul>
         
@@ -111,7 +111,7 @@
     </section>
 
     <section>
-    <div class="container mt-4">
+    <div class="container mt-4" id="about">
         
                     <h1 class="custom-h1 text-center">About <span>Me</span></h1>
                     <h4 class="custom-h3">Full Stack Developer!</h4>
@@ -202,7 +202,6 @@
                             navigating a product easy and enjoyable. I focus on balancing style with functionality,
                             ensuring every design element has a purpose. My process includes researching user needs,
                             creating prototypes, and testing to refine and improve the experience.</p>
-                        <a href="#" class="read">learn more</a>
                     </div>
                     <div>
                         <i class='bx bx-crop' style='color:#00eeff'></i>
@@ -211,7 +210,6 @@
                             device. I focus on modern, clean designs that align with the brand’s look and feel, making
                             sure each element is purposeful. From colors to fonts and layout, my goal is to make
                             websites both visually appealing and user-friendly.</p>
-                        <a href="#" class="read">learn more</a>
                     </div>
                     <div>
                         <i class='bx bxl-apple' style='color:#00eeff'></i>
@@ -221,7 +219,6 @@
                             carefully selecting colors, typography, and layout to support the app’s purpose. My goal is
                             to design apps that not only look great but also provide a smooth, enjoyable experience on
                             any device.</p>
-                        <a href="#" class="read">learn more</a>
                     </div>
                 </div>
             </div>
@@ -337,36 +334,24 @@
 
               <div class="portfolio-content">
                   <div class="row ">
-                      <img src="5757453.jpg">
+                      <img src="project1.png">
                       <div class="layer">
-                          <h5>UI/UX Design</h5>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nesciunt, debitis fugit
-                              aperiam veritatis voluptates
-                              vel reprehenderit, libero esse quia corporis et similique rerum eaque eos magnam ipsum
-                              maiores laudantium.</p>
-                          <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                          <h5>Tourism In SriLanka</h5>
+                          <p>This website is a user-friendly platform designed to enhance travel planning for tourists and locals. It allows users to create personalized trips with route suggestions, budget planning, and detailed information on destinations, accommodations, and events. The platform features real-time updates on local activities, a packing list manager, and a news section for tourism trends. Users can also access travel agents, tour guides, and crowdsourced travel tips. Built with modern technologies, it ensures a secure and efficient experience, promoting Sri Lanka's tourism with innovative tools and resources.</p>
                       </div>
                   </div>
                   <div class="row">
-                      <img src="5467393_1687 (1).jpg">
+                      <img src="project2.png">
                       <div class="layer">
-                          <h5>UI/UX Design</h5>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nesciunt, debitis fugit
-                              aperiam veritatis voluptates
-                              vel reprehenderit, libero esse quia corporis et similique rerum eaque eos magnam ipsum
-                              maiores laudantium.</p>
-                          <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                          <h5>Pharmacy Portal</h5>
+                          <p>"Queensway Pharmacy" is an online platform providing a wide range of pharmaceutical products and health-related items in Sri Lanka. It features an easy-to-navigate interface with categories for medicines, wellness products, and personal care, along with a prescription upload option for convenient ordering. Customers can add items to a cart, view product details, and enjoy a streamlined shopping experience. The site also includes an admin panel for managing user profiles, settings, and content, ensuring efficient operations and enhanced customer support.</p>
                       </div>
                   </div>
                   <div class="row">
-                      <img src="4174812.jpg">
+                      <img src="Project3.png">
                       <div class="layer">
-                          <h5>UI/UX Design</h5>
-                          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, nesciunt, debitis fugit
-                              aperiam veritatis voluptates
-                              vel reprehenderit, libero esse quia corporis et similique rerum eaque eos magnam ipsum
-                              maiores laudantium.</p>
-                          <a href="#"><i class='bx bx-link-external' style='color:#ffffff'></i></a>
+                          <h5>Story Books Reader</h5>
+                          <p>The "Story Books Reader" app is a mobile application designed for Sinhala storybook enthusiasts. It provides a secure platform where users can register, log in, and explore a diverse collection of books. Built using Kotlin and Firebase, the app features user-friendly navigation, real-time book access, and category management. Administrators can add, update, or remove books efficiently. Users enjoy a personalized experience with secure authentication and easy access to content. This app serves as a modern solution for digital reading and library management in the Sinhala language.</p>
                       </div>
                   </div>
 
@@ -396,10 +381,10 @@
                 <li><i class='bx bx-phone-call'></i> +94 775466455</li>
               </ul>
               <div class="contact-icons">
-                <a href=""><i class='bx bxl-github' style='color:#00eeff'></i></a>
-                <a href=""><i class='bx bxl-linkedin' style='color:#00eeff'></i></a>
-                <a href=""><i class='bx bxl-facebook' style='color:#00eeff'></i></a>
-                <a href=""><i class='bx bxl-instagram' style='color:#00eeff'></i></a>
+                <a href=""><i class='bx bxl-github' style='color:#00eeff' onclick="openGithub()"></i></a>
+                <a href=""><i class='bx bxl-linkedin' style='color:#00eeff' onclick="openLinkedIn()"></i></a>
+                <a href=""><i class='bx bxl-facebook' style='color:#00eeff' onclick="openFaceBook()"></i></a>
+                <a href=""><i class='bx bxl-instagram' style='color:#00eeff' onclick="openInsta()"></i></a>
               </div>
             </div>
   
@@ -432,6 +417,14 @@
 
 
 
-    <script src="script.js"></script>
+<script src="script.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+       emailjs.init({
+         publicKey: "4amrsOBoUw_b5ew4S",
+       });
+    })();
+ </script>
   </body>
 </html>

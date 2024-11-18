@@ -32,7 +32,7 @@ body
 
 .header a  {
     position: relative;
-    font-size: 25px;
+    font-size: 27px;
     color: #fff;
     text-decoration: none;
     cursor: default;
@@ -41,6 +41,7 @@ body
    }
    .navbar-brand{
     font-weight: 600;
+
    }
 .navbar-brand span {
     color: #0ef;
@@ -64,7 +65,7 @@ body
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--i));
 }
-.navbar-brand a:hover {
+.nav-link:hover {
     color: #0ef;
     
 }
@@ -206,6 +207,7 @@ body
   }
 
 .btn-box:hover {
+  text-decoration: none;
     box-shadow: 0 0 5px cyan,
     0 0 25px cyan, 0 0 50px cyan
    
@@ -561,28 +563,7 @@ background-color: transparent;
   margin-top: 20px;
   display: inline-block;
 }
-.read {
-  display: inline-block;
-  padding: 12px 28px;
-  background: #0ef;
-  border-radius: 40px;
-  font-size: 16px;
-  color: #081b29;
-  letter-spacing: 1px;
-  text-decoration: none;
-  font-weight: 600;
-  opacity: 0;
-  animation: slideTop 1s ease forwards ;
-  animation-delay: 2s;
-  box-shadow: 0 0 5px #0ef,
-  0 0 25px #0ef;
-}
-.read:hover {
-  box-shadow: 0 0 5px cyan,
-  0 0 25px cyan, 0 0 50px cyan
- 
 
-}
 .services-list div:hover{
  
   transform: translateY(-10px);
