@@ -49,6 +49,16 @@ body
     
    
 }
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler-icon {
+  background-color: white; /* Visible on dark background */
+  border-radius: 2px;
+  padding: 2px;
+}
+
 .nav-item{
     margin-left: 20px;
 }
@@ -886,8 +896,23 @@ section{
 }
 .layer p{
   color: #000000;
-  font-size: 1rem;
+  font-size: 0.9rem;
   line-height: 1.8;
+}
+
+
+/* Medium screen adjustments (e.g., tablets) */
+@media (max-width: 768px) {
+  .layer p {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small screen adjustments (e.g., phones) */
+@media (max-width: 576px) {
+  .layer p{
+    font-size: 0.7rem;
+  }
 }
 .layer i{
   color: #ff004f;
